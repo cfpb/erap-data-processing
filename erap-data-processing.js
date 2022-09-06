@@ -119,8 +119,8 @@ const processPrograms = ( programs ) => {
 
     if ( itemCopy.type === 'Tribal Government' ) {
       results.tribal.push(itemCopy);
-    } else if ( ( itemCopy.type === 'State' && itemCopy.state === 'Texas' ) ||
-                itemCopy.state === 'Mississippi' ) {
+    } else if ( itemCopy.type === 'State' && ( itemCopy.state === 'Texas' ||
+                itemCopy.state === 'Mississippi' ) ) {
       // Temporary fix to hide closed programs
     } else {
       results.geographic.push(itemCopy);
