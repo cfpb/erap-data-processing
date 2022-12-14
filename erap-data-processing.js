@@ -66,65 +66,68 @@ const processPrograms = ( programs ) => {
   let noContact = [];
   let noURL = [];
   let noCounty = [];
+  let foo = 0;
   programs.forEach( item => {
-    let itemCopy = {};
-    // Copy and rename values
-    // Copy Geographic Level as Type
-    let type = item['Geographic Level'];
-    itemCopy['type'] = type;
-    // Copy State as State
-    itemCopy['state'] = item['State'];
-    // Set State to territory name if territory
-    if ( type === 'Territory' ) {
-      let val = item['Tribal Government/ Territory'];
-      if ( val === 'Commonwealth of the Northern Mariana Islands' ) {
-        // Rename Mariana Islands to match state name
-        itemCopy['state'] = 'Northern Mariana Islands';
+    if ( item['Program Status'].indexOf( 'Program permanently closed' ) === -1 ) {
+      let itemCopy = {};
+      // Copy and rename values
+      // Copy Geographic Level as Type
+      let type = item['Geographic Level'];
+      itemCopy['type'] = type;
+      itemCopy['status'] = item['Program Status'];
+      // Copy State as State
+      itemCopy['state'] = item['State'];
+      // Set State to territory name if territory
+      if ( type === 'Territory' ) {
+        let val = item['Tribal Government/ Territory'];
+        if ( val === 'Commonwealth of the Northern Mariana Islands' ) {
+          // Rename Mariana Islands to match state name
+          itemCopy['state'] = 'Northern Mariana Islands';
+        } else {
+          itemCopy['state'] = val;
+        }
+      }
+      // copy Program Name as Program
+      itemCopy['program'] = item['Program Name'];
+      // Set Name based on type
+      itemCopy['name'] = getProgramName( type, item );
+
+      // Add county array if one exists in the county map
+      if ( type === 'City' || type === 'County' ) {
+        const state = item['State'];
+        let stateObj = counties[state] || {};
+        let county = stateObj[item['City/County/ Locality']]
+        if ( county ) {
+          itemCopy['county'] = county;
+        }
+        if (type === 'City' && !county) {
+          noCounty.push( `${item['City/County/ Locality']}, ${item['State']}`)
+        }
+      }
+      // check to see whether contact info is URL or phone
+      // and set Phone or URL property
+      let contact = getContactInfo(
+        item['Program Page Link  (Phone # if Link is Unavailable)']
+      )
+      if (contact) {
+        itemCopy[contact[0]] = contact[1];
+        if ( contact[0] === 'phone' ) {
+          noURL.push( [item['Program Name'], contact[1]] )
+        }
       } else {
-        itemCopy['state'] = val;
+        noContact.push(item['Program Name']);
       }
-    }
-    // copy Program Name as Program
-    itemCopy['program'] = item['Program Name'];
-    // Set Name based on type
-    itemCopy['name'] = getProgramName( type, item );
 
-    // Add county array if one exists in the county map
-    if ( type === 'City' || type === 'County' ) {
-      const state = item['State'];
-      let stateObj = counties[state] || {};
-      let county = stateObj[item['City/County/ Locality']]
-      if ( county ) {
-        itemCopy['county'] = county;
-      }
-      if (type === 'City' && !county) {
-        noCounty.push( `${item['City/County/ Locality']}, ${item['State']}`)
-      }
+      if ( itemCopy.type === 'Tribal Government' ) {
+        results.tribal.push(itemCopy);
+      } else if ( itemCopy.type === 'State' && ( itemCopy.state === 'Texas' ||
+                  itemCopy.state === 'Mississippi' ) ) {
+        // Temporary fix to hide closed programs
+      } else {
+        results.geographic.push(itemCopy);
+      }    
     }
-    // check to see whether contact info is URL or phone
-    // and set Phone or URL property
-    let contact = getContactInfo(
-      item['Program Page Link  (Phone # if Link is Unavailable)']
-    )
-    if (contact) {
-      itemCopy[contact[0]] = contact[1];
-      if ( contact[0] === 'phone' ) {
-        noURL.push( [item['Program Name'], contact[1]] )
-      }
-    } else {
-      noContact.push(item['Program Name']);
-    }
-
-
-
-    if ( itemCopy.type === 'Tribal Government' ) {
-      results.tribal.push(itemCopy);
-    } else if ( itemCopy.type === 'State' && ( itemCopy.state === 'Texas' ||
-                itemCopy.state === 'Mississippi' ) ) {
-      // Temporary fix to hide closed programs
-    } else {
-      results.geographic.push(itemCopy);
-    }
+    
 
   })
   return {
@@ -152,7 +155,7 @@ if ( process.argv[2] == null ) {
     let json = initializeData( data );
     let results = processPrograms( json );
 
-    fs.writeFile( 'output/erap.json', JSON.stringify( results.programs ), (err) => {
+    fs.writeFile( 'output/erap.json', JSON.stringify( results.programs, null, ' ' ), (err) => {
       if (err) throw err;
       console.log('The file has been saved!');
     })
