@@ -2,7 +2,7 @@
  "geographic": [
   {
    "type": "State",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Alabama",
    "program": "Alabama Emergency Rental Assistance Program",
    "name": "Alabama",
@@ -38,11 +38,11 @@
     "Madison County",
     "Limestone County"
    ],
-   "url": "https://www.huntsvilleal.gov/covid-19-emergency-rental-assistance/"
+   "url": "https://huntsvillehousinghelps.com/"
   },
   {
    "type": "County",
-   "status": "Applications on hold/Waitlist",
+   "status": "Accepting applications",
    "state": "Alabama",
    "program": "Jefferson County Alabama Emergency Rental Assistance Program",
    "name": "Jefferson County",
@@ -58,7 +58,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Alabama",
    "program": "Emergency Rental Assistance Montgomery County (ERAMCo)",
    "name": "Montgomery County",
@@ -82,7 +82,7 @@
   },
   {
    "type": "City",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Arizona",
    "program": "Chandler Community Action Program",
    "name": "Chandler",
@@ -104,7 +104,7 @@
   },
   {
    "type": "City",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Arizona",
    "program": "Glendale COVID-19 Emergency Rent Assistance Program",
    "name": "Glendale",
@@ -123,7 +123,7 @@
   },
   {
    "type": "City",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Arizona",
    "program": "Mesa Emergency Rental and Utility Assistance Program",
    "name": "Mesa",
@@ -134,7 +134,7 @@
   },
   {
    "type": "City",
-   "status": "Applications on hold/Waitlist",
+   "status": "Accepting applications",
    "state": "Arizona",
    "program": "Phoenix City Emergency Rental Assistance (ERA) Program",
    "name": "Phoenix",
@@ -145,7 +145,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Arizona",
    "program": "Tucson and Pima County Eviction Prevention/Emergency Rent and Utility Relief Program",
    "name": "Pima County",
@@ -164,19 +164,11 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Arkansas",
    "program": "Benton County Emergency Rental Assistance Program",
    "name": "Benton County",
    "url": "https://www.harknwa.com/emergency-rental-assitance/"
-  },
-  {
-   "type": "County",
-   "status": "Applications on hold/Waitlist",
-   "state": "Arkansas",
-   "program": "Washington County Emergency Rental Assistance",
-   "name": "Washington County",
-   "url": "https://www.washingtoncountyar.gov/how-do-i/submit/apply-for-rental-assistance"
   },
   {
    "type": "State",
@@ -204,17 +196,6 @@
     "Orange County"
    ],
    "url": "https://www.anaheim.net/5532/Emergency-Rental-Assistance-Program"
-  },
-  {
-   "type": "City",
-   "status": "Applications on hold/Waitlist",
-   "state": "California",
-   "program": "Chula Vista Emergency Rental Assistance Program (ERAP)",
-   "name": "Chula Vista",
-   "county": [
-    "San Diego County"
-   ],
-   "url": "https://www.chulavistaerap.com/"
   },
   {
    "type": "City",
@@ -353,20 +334,12 @@
    "type": "City",
    "status": "Applications on hold/Waitlist",
    "state": "California",
-   "program": "Santa Ana CARES",
-   "name": "Santa Ana",
+   "program": "San Francisco’s Local Emergency Rental Assistance Program",
+   "name": "San Francisco",
    "county": [
-    "Orange County"
+    "San Francisco County"
    ],
-   "url": "https://www.santa-ana.org/cares-for-tenants"
-  },
-  {
-   "type": "County",
-   "status": "Applications on hold/Waitlist",
-   "state": "California",
-   "program": "County of Santa Barbara Emergency Rental & Utility Assistance",
-   "name": "Santa Barbara County",
-   "url": "https://www.surveymonkey.com/r/UWSBC-county-rental-assistance-COVID-19-impacted-residents"
+   "url": "https://sf.gov/renthelp"
   },
   {
    "type": "County",
@@ -413,7 +386,7 @@
   },
   {
    "type": "City",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Colorado",
    "program": "Denver City and County Emergency Rental Assistance Program (ERAP)",
    "name": "Denver",
@@ -424,7 +397,7 @@
   },
   {
    "type": "County",
-   "status": "Applications on hold/Waitlist",
+   "status": "Accepting applications",
    "state": "Colorado",
    "program": "Douglas County Emergency Rental Assistance",
    "name": "Douglas County",
@@ -432,7 +405,7 @@
   },
   {
    "type": "County",
-   "status": "Applications on hold/Waitlist",
+   "status": "Accepting applications",
    "state": "Colorado",
    "program": "Jefferson County Emergency Assistance COVID-19",
    "name": "Jefferson County",
@@ -449,14 +422,6 @@
   {
    "type": "State",
    "status": "Applications on hold/Waitlist",
-   "state": "Connecticut",
-   "program": "UniteCT",
-   "name": "Connecticut",
-   "url": "https://portal.ct.gov/DOH/DOH/Programs/UniteCT"
-  },
-  {
-   "type": "State",
-   "status": "Accepting applications",
    "state": "Delaware",
    "program": "Delaware Housing Assistance Program (DEHAP)",
    "name": "Delaware",
@@ -480,7 +445,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Florida",
    "program": "Alachua County Emergency Rental Assistance Program (ERAP)",
    "name": "Alachua County",
@@ -496,7 +461,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Florida",
    "program": "Escambia County Emergency Rental Assistance (ERAP) Program",
    "name": "Escambia County",
@@ -511,7 +476,7 @@
    "county": [
     "Miami-Dade County"
    ],
-   "url": "http://www.hialeahfl.gov/690/Funding-Opportunities"
+   "url": "http://www.hialeahfl.gov/690/ERAP"
   },
   {
    "type": "County",
@@ -519,7 +484,7 @@
    "state": "Florida",
    "program": "Hillsborough County Rapid Response Recovery Assistance Program (R3)",
    "name": "Hillsborough County",
-   "url": "https://www.hillsboroughcounty.org/residents/public-safety/rapid-response-recovery-assistance-program-r3/r3-program"
+   "url": "https://r3.hcflgov.net/"
   },
   {
    "type": "City",
@@ -560,6 +525,14 @@
    "type": "County",
    "status": "Applications on hold/Waitlist",
    "state": "Florida",
+   "program": "Manatee County Emergency Rental Assistance Program",
+   "name": "Manatee County",
+   "url": "https://www.mymanatee.org/departments/redevelopment___economic_opportunity/community_development/manatee_cares/emergency_rental_assistance_program"
+  },
+  {
+   "type": "County",
+   "status": "Applications on hold/Waitlist",
+   "state": "Florida",
    "program": "COVID Assistance Program (CAP)",
    "name": "Marion County",
    "url": "https://www.uwmc.org/CAP"
@@ -577,7 +550,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Florida",
    "program": "Miami-Dade County Emergency Rental Program 2.3 (ERAP 2.3)",
    "name": "Miami-Dade County",
@@ -604,7 +577,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Florida",
    "program": "Osceola County COVID-19 Emergency Rental Assistance Program",
    "name": "Osceola County",
@@ -612,7 +585,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications - rolling basis",
+   "status": "Accepting applications",
    "state": "Florida",
    "program": "Palm Beach County Rental Assistance",
    "name": "Palm Beach County",
@@ -620,7 +593,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Accepting applications - rolling basis",
    "state": "Florida",
    "program": "Helping with Emergency Assistance Relief for Tenants (Pasco H.E.A.R.T.)",
    "name": "Pasco County",
@@ -665,28 +638,9 @@
    "type": "County",
    "status": "Applications on hold/Waitlist",
    "state": "Florida",
-   "program": "St. Johns County Emergency Rental Assistance",
-   "name": "St. Johns County",
-   "url": "http://www.sjcfl.us/Housing/index.aspx"
-  },
-  {
-   "type": "County",
-   "status": "Applications on hold/Waitlist",
-   "state": "Florida",
-   "program": "St. Lucie County Emergency Rental Assistance Program",
-   "name": "St. Lucie County",
-   "url": "https://recoverstlucie.org/emergency-rental-and-mortgage-assistance-program/"
-  },
-  {
-   "type": "City",
-   "status": "Applications on hold/Waitlist",
-   "state": "Florida",
-   "program": "St. Petersburg Rent and Utility Assistance",
-   "name": "St. Petersburg",
-   "county": [
-    "Pinellas County"
-   ],
-   "url": "https://www.stpete.org/residents/grants___loans/rental_assistance.php"
+   "program": "Seminole County Emergency Rental Assistance (ERA) Program",
+   "name": "Seminole County",
+   "url": "https://seminoleerap.seminolecountyfl.gov/"
   },
   {
    "type": "County",
@@ -703,18 +657,6 @@
    "program": "State of Georgia Rental Assistance Program",
    "name": "Georgia",
    "url": "https://georgiarentalassistance.ga.gov/"
-  },
-  {
-   "type": "City",
-   "status": "Applications on hold/Waitlist",
-   "state": "Georgia",
-   "program": "Atlanta COVID-19 Emergency Housing Assistance Program",
-   "name": "Atlanta",
-   "county": [
-    "Fulton County",
-    "DeKalb County"
-   ],
-   "url": "https://www.unitedwayatlanta.org/atlanta-covid-19-emergency-housing-assistance-program/"
   },
   {
    "type": "County",
@@ -745,7 +687,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Georgia",
    "program": "Clayton County Emergency Rental Assistance",
    "name": "Clayton County",
@@ -758,14 +700,6 @@
    "program": "DeKalb Tenant-Landlord Assistance Coalition",
    "name": "DeKalb County",
    "url": "https://dekalbstatecourt.net/renthelp/"
-  },
-  {
-   "type": "County",
-   "status": "Applications on hold/Waitlist",
-   "state": "Georgia",
-   "program": "Forsyth County Emergency Rental & Utility Relief Program",
-   "name": "Forsyth County",
-   "url": "https://www.unitedwayforsyth.com/emergency-rental-and-utility-assistance"
   },
   {
    "type": "County",
@@ -801,7 +735,7 @@
   },
   {
    "type": "Entity",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Hawaii",
    "program": "Department of Hawaiian Home Lands Rent Relief Program",
    "name": "Department of Hawaiian Home Lands",
@@ -855,7 +789,7 @@
   },
   {
    "type": "State",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Idaho",
    "program": "Idaho Housing and Finance Association's Housing Preservation Application",
    "name": "Idaho",
@@ -883,7 +817,7 @@
    "state": "Illinois",
    "program": "Champaign County Emergency Rental Assistance Program",
    "name": "Champaign County",
-   "url": "https://ccrpc.org/programs/era/"
+   "url": "https://ccrpc.org/programs/emergency-rent-assistance/"
   },
   {
    "type": "City",
@@ -898,7 +832,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Illinois",
    "program": "Cook County COVID-19 Recovery Rental Assistance",
    "name": "Cook County",
@@ -927,14 +861,6 @@
    "program": "McHenry County Emergency Utility and Rental Assistance Program",
    "name": "McHenry County",
    "url": "https://mchenryrent.com/"
-  },
-  {
-   "type": "County",
-   "status": "Applications on hold/Waitlist",
-   "state": "Illinois",
-   "program": "Winnebago County Emergency Rental Assistance",
-   "name": "Winnebago County",
-   "url": "https://wincoil.us/departments/county-board-office/rent-help/"
   },
   {
    "type": "State",
@@ -993,30 +919,14 @@
   {
    "type": "County",
    "status": "Applications on hold/Waitlist",
-   "state": "Indiana",
-   "program": "St. Joseph County’s Emergency Rental Assistance (ERA)",
-   "name": "St. Joseph County",
-   "url": "https://www.sjcindiana.com/2019/Emergency-Rental-Assistance-Program"
-  },
-  {
-   "type": "State",
-   "status": "Applications on hold/Waitlist",
-   "state": "Iowa",
-   "program": "Iowa Rent and Utility Assistance Program",
-   "name": "Iowa",
-   "url": "https://www.iowafinance.com/iowa-rent-and-utility-assistance-program/"
-  },
-  {
-   "type": "County",
-   "status": "Applications on hold/Waitlist",
    "state": "Iowa",
    "program": "Linn County Emergency Rental Assistance",
    "name": "Linn County",
-   "url": "https://www.linncounty-ia.gov/1585/Emergency-Rental-Assistance"
+   "url": "https://www.linncountyiowa.gov/1585/Emergency-Rental-Assistance"
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Iowa",
    "program": "Emergency Rental Assistance Program (ERAP)",
    "name": "Polk County",
@@ -1040,7 +950,7 @@
   },
   {
    "type": "State",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Kentucky",
    "program": "Healthy at Home Eviction Relief Fund",
    "name": "Kentucky",
@@ -1059,7 +969,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications - rolling basis",
+   "status": "Applications on hold/Waitlist",
    "state": "Kentucky",
    "program": "Jefferson County Rental Assistance",
    "name": "Louisville/Jefferson County Metro Government",
@@ -1070,7 +980,7 @@
   },
   {
    "type": "State",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Louisiana",
    "program": "Louisiana Emergency Rental Assistance Program (LERAP)",
    "name": "Louisiana",
@@ -1097,7 +1007,7 @@
   },
   {
    "type": "County",
-   "status": "Applications on hold/Waitlist",
+   "status": "Accepting applications - rolling basis",
    "state": "Louisiana",
    "program": "Calcasieu Parish Emergency Rental Assistance Program",
    "name": "Calcasieu Parish",
@@ -1164,7 +1074,7 @@
   },
   {
    "type": "City",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Maryland",
    "program": "Baltimore City Eviction Prevention Program",
    "name": "Baltimore",
@@ -1199,7 +1109,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Maryland",
    "program": "Montgomery CountyRent Relief Program",
    "name": "Montgomery County",
@@ -1292,16 +1202,8 @@
    "url": "https://www.ramseycounty.us/residents/assistance-support/assistance/financial-assistance/emergency-assistance"
   },
   {
-   "type": "Region",
-   "status": "Applications on hold/Waitlist",
-   "state": "Minnesota",
-   "program": "The Zero Balance Project",
-   "name": "Regional",
-   "url": "https://www.housinglink.org/List/emergency-rental-assistance"
-  },
-  {
    "type": "State",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Missouri",
    "program": "Missouri State Assistance for Housing Relief (SAFHR) Program",
    "name": "Missouri",
@@ -1309,7 +1211,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Missouri",
    "program": "Clay County Emergency Rental Assistance",
    "name": "Clay County",
@@ -1325,7 +1227,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Missouri",
    "program": "Jackson County Emergency Rental Assistance Program",
    "name": "Jackson County",
@@ -1362,19 +1264,11 @@
   },
   {
    "type": "State",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Montana",
    "program": "Montana Emergency Rental Assistance",
    "name": "Montana",
    "url": "https://housing.mt.gov/Rental-Assistance/Montana-Emergency-Rental-Assistance-Program"
-  },
-  {
-   "type": "State",
-   "status": "Applications on hold/Waitlist",
-   "state": "Nebraska",
-   "program": "Nebraska Emergency Rental Assistance (ERA) Program",
-   "name": "Nebraska",
-   "url": "https://coronavirus.nebraska.gov/EmergencyRentalAssistanceProgram"
   },
   {
    "type": "County",
@@ -1432,7 +1326,7 @@
   },
   {
    "type": "City",
-   "status": "Applications on hold/Waitlist",
+   "status": "Accepting applications",
    "state": "Nevada",
    "program": "Rental Assistance For Tenants (RAFT)",
    "name": "Las Vegas",
@@ -1443,7 +1337,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Nevada",
    "program": "Washoe County CARES Housing Assistance Program (CHAP)",
    "name": "Washoe County",
@@ -1523,7 +1417,7 @@
   },
   {
    "type": "City",
-   "status": "Applications on hold/Waitlist",
+   "status": "Accepting applications - rolling basis",
    "state": "New Jersey",
    "program": "Jersey City COVID-19 Rent Relief Program",
    "name": "Jersey City",
@@ -1593,7 +1487,7 @@
   },
   {
    "type": "State",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "New Mexico",
    "program": "New Mexico Emergency Rental Assistance Program",
    "name": "New Mexico",
@@ -1617,7 +1511,7 @@
   },
   {
    "type": "State",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "New York",
    "program": "New York State Emergency Rental Assistance Program (ERAP)",
    "name": "New York",
@@ -1625,7 +1519,7 @@
   },
   {
    "type": "City",
-   "status": "Applications on hold/Waitlist",
+   "status": "Accepting applications",
    "state": "New York",
    "program": "Town of Hempstead Emergency Rental Assistance Program",
    "name": "Hempstead",
@@ -1655,15 +1549,7 @@
   },
   {
    "type": "County",
-   "status": "Applications on hold/Waitlist",
-   "state": "New York",
-   "program": "Onondaga County Emergency Rental Relief Program",
-   "name": "Onondaga County",
-   "url": "https://ongovrenthelp.com/"
-  },
-  {
-   "type": "County",
-   "status": "Applications on hold/Waitlist",
+   "status": "Accepting applications",
    "state": "New York",
    "program": "Town of Oyster Bay Emergency Rental Assistance Program",
    "name": "Oyster Bay Town",
@@ -1671,25 +1557,6 @@
     "Nassau County"
    ],
    "url": "https://oysterbaytown.com/rentalassistance/"
-  },
-  {
-   "type": "City",
-   "status": "Applications on hold/Waitlist",
-   "state": "New York",
-   "program": "Yonkers Emergency Rental Assistance",
-   "name": "Yonkers",
-   "county": [
-    "Westchester County"
-   ],
-   "url": "https://www.yonkersny.gov/work/department-of-planning-development/development/community-development/emergency-rental-assistance-program"
-  },
-  {
-   "type": "State",
-   "status": "Applications on hold/Waitlist",
-   "state": "North Carolina",
-   "program": "North Carolina's Housing Opportunities and Prevention of Evictions Program (HOPE)",
-   "name": "North Carolina",
-   "url": "https://www.rebuild.nc.gov/hope-program"
   },
   {
    "type": "County",
@@ -1708,17 +1575,6 @@
    "url": "https://iem-preregistration.com/cumberland-nc"
   },
   {
-   "type": "City",
-   "status": "Applications on hold/Waitlist",
-   "state": "North Carolina",
-   "program": "City of Durham Rent Relief Program",
-   "name": "Durham",
-   "county": [
-    "Durham County"
-   ],
-   "url": "https://durhamrentrelief.org/"
-  },
-  {
    "type": "County",
    "status": "Applications on hold/Waitlist",
    "state": "North Carolina",
@@ -1733,22 +1589,6 @@
    "program": "City of Winston-Salem and Forsyth County ERAP Pandemic Assistance",
    "name": "Forsyth County",
    "url": "https://www.forsyth.cc/ERAP/"
-  },
-  {
-   "type": "County",
-   "status": "Applications on hold/Waitlist",
-   "state": "North Carolina",
-   "program": "Gaston County Emergency Rental Assistance Program",
-   "name": "Gaston County",
-   "url": "https://www.gastongov.com/coronavirus/emergency_rental_assistance_program.php"
-  },
-  {
-   "type": "County",
-   "status": "Applications on hold/Waitlist",
-   "state": "North Carolina",
-   "program": "Guilford Cares Rental/Utility Assistance Program",
-   "name": "Guilford County",
-   "url": "https://www.guilfordcountync.gov/services/grants/emergency-rental-and-utilities-assistance-grant-program"
   },
   {
    "type": "County",
@@ -1772,7 +1612,7 @@
    "state": "North Carolina",
    "program": "New Hanover Emergency Rental Assistance Program",
    "name": "New Hanover County",
-   "url": "https://newhanovercounty.force.com/s/article/Upload-Documents-through-the-AccessHHS-Portal?language=en_US"
+   "url": "https://newhanovercounty.force.com/s/article/See-link-below-for-application?language=en_US"
   },
   {
    "type": "County",
@@ -1808,7 +1648,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Ohio",
    "program": "Butler County Emergency Rental Assistance Program",
    "name": "Butler County",
@@ -1872,7 +1712,7 @@
   },
   {
    "type": "County",
-   "status": "Applications on hold/Waitlist",
+   "status": "Accepting applications",
    "state": "Ohio",
    "program": "Hamilton County Rent and Utility Relief Program",
    "name": "Hamilton County",
@@ -1912,7 +1752,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Ohio",
    "program": "Summit County Cares",
    "name": "Summit County",
@@ -1920,7 +1760,7 @@
   },
   {
    "type": "City",
-   "status": "Applications on hold/Waitlist",
+   "status": "Accepting applications",
    "state": "Ohio",
    "program": "Toledo Lucas County Emergency Rental Assistance Program",
    "name": "Toledo",
@@ -1977,7 +1817,7 @@
   },
   {
    "type": "County",
-   "status": "Applications on hold/Waitlist",
+   "status": "Accepting applications - rolling basis",
    "state": "Oregon",
    "program": "Emergency Rent Relief of Lane County (ERRLC)",
    "name": "Lane County",
@@ -1993,15 +1833,7 @@
   },
   {
    "type": "County",
-   "status": "Applications on hold/Waitlist",
-   "state": "Oregon",
-   "program": "Multnomah County COVID-19 Rent Relief Program",
-   "name": "Multnomah County",
-   "url": "https://www.portland.gov/phb/rent-relief/multnomah-county-rent-assistance"
-  },
-  {
-   "type": "County",
-   "status": "Applications on hold/Waitlist",
+   "status": "Accepting applications",
    "state": "Oregon",
    "program": "Washington County Emergency Rental Assistance Program",
    "name": "Washington County",
@@ -2049,19 +1881,11 @@
   },
   {
    "type": "County",
-   "status": "Applications on hold/Waitlist",
+   "status": "Accepting applications",
    "state": "Pennsylvania",
    "program": "Cumberland County Emergency Rental Assistance Program",
    "name": "Cumberland County",
    "url": "https://cchra.com/program/individual/Emergency-rental-assistance-program"
-  },
-  {
-   "type": "County",
-   "status": "Applications on hold/Waitlist",
-   "state": "Pennsylvania",
-   "program": "Dauphin County Emergency Rent and Utility Assistance Program",
-   "name": "Dauphin County",
-   "url": "https://www.dauphincounty.org/government/departments/human_services/emergency_rental_assistance__instructions_and_information.php"
   },
   {
    "type": "County",
@@ -2097,7 +1921,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Pennsylvania",
    "program": "Luzerne County COVID Rent and Utility Assistance Program",
    "name": "Luzerne County",
@@ -2164,7 +1988,7 @@
   },
   {
    "type": "State",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "South Carolina",
    "program": "South Carolina Stay Plus",
    "name": "South Carolina",
@@ -2212,7 +2036,7 @@
   },
   {
    "type": "State",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Tennessee",
    "program": "Tennessee Housing Development Authority COVID-19 Rent Relief",
    "name": "Tennessee",
@@ -2273,14 +2097,6 @@
     "Hays County"
    ],
    "url": "http://www.austintexas.gov/rent"
-  },
-  {
-   "type": "County",
-   "status": "Accepting applications",
-   "state": "Texas",
-   "program": "Bell County Emergency Rental Assistance Program",
-   "name": "Bell County",
-   "url": "https://hccaa.com/emergency-disaster/"
   },
   {
    "type": "County",
@@ -2361,7 +2177,7 @@
   },
   {
    "type": "County",
-   "status": "Applications on hold/Waitlist",
+   "status": "Accepting applications",
    "state": "Texas",
    "program": "Fort Bend County Emergency Rental Assistance (ERA) Program",
    "name": "Fort Bend County",
@@ -2397,7 +2213,7 @@
    "state": "Texas",
    "program": "Galveston County Emergency Rental Assistance Program",
    "name": "Galveston County",
-   "url": "https://www.galvestoncountyrecovers.org/"
+   "url": "https://www.galvestoncountyrecovers.org/about-9"
   },
   {
    "type": "City",
@@ -2440,16 +2256,8 @@
    "url": "https://www.zoomgrants.cc/gprop2.asp?donorid=2354&rfpid=3404"
   },
   {
-   "type": "County",
-   "status": "Accepting applications",
-   "state": "Texas",
-   "program": "Jefferson County Emergency Rent Relief Program",
-   "name": "Jefferson County",
-   "url": "http://www.erap.setrpc.org/"
-  },
-  {
    "type": "City",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Texas",
    "program": "Laredo COVID-19 Rental Assistance Program",
    "name": "Laredo",
@@ -2473,29 +2281,9 @@
    "type": "County",
    "status": "Applications on hold/Waitlist",
    "state": "Texas",
-   "program": "McLennan County Emergency Rental Assistance Program",
-   "name": "McLennan County",
-   "url": "https://covidwaco.com/rental-assistance/"
-  },
-  {
-   "type": "County",
-   "status": "Accepting applications",
-   "state": "Texas",
    "program": "Nueces County Emergency Rental Assistance Program",
    "name": "Nueces County",
    "url": "https://www.nuecesco.com/Home/Components/News/News/1384/1169"
-  },
-  {
-   "type": "City",
-   "status": "Unclear",
-   "state": "Texas",
-   "program": "City of Plano Emergency Rental Assistance Program",
-   "name": "Plano",
-   "county": [
-    "Collin County",
-    "Denton County"
-   ],
-   "url": "https://zoomgrants.com/gprop2.asp?donorid=2213"
   },
   {
    "type": "City",
@@ -2511,7 +2299,7 @@
   },
   {
    "type": "State",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Utah",
    "program": "Utah Rent Relief",
    "name": "Utah",
@@ -2532,22 +2320,6 @@
    "program": "Virginia Rent Relief Program",
    "name": "Virginia",
    "url": "https://www.dhcd.virginia.gov/rrp"
-  },
-  {
-   "type": "County",
-   "status": "Applications on hold/Waitlist",
-   "state": "Virginia",
-   "program": "Chesterfield Emergency Rent and Utility Assistance (CERA)",
-   "name": "Chesterfield County",
-   "url": "http://actsrva.org/chesterfield-cera-application/"
-  },
-  {
-   "type": "County",
-   "status": "Applications on hold/Waitlist",
-   "state": "Virginia",
-   "program": "Fairfax County Emergency Rental Assistance Program",
-   "name": "Fairfax County",
-   "url": "https://hhsncs.powerappsportals.us/"
   },
   {
    "type": "State",
@@ -2571,7 +2343,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications - rolling basis",
+   "status": "Applications on hold/Waitlist",
    "state": "Washington",
    "program": "Clark County Treasury Rent Assistance",
    "name": "Clark County",
@@ -2619,7 +2391,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Washington",
    "program": "Snohomish County Emergency Rental Assistance",
    "name": "Snohomish County",
@@ -2627,7 +2399,7 @@
   },
   {
    "type": "City",
-   "status": "Applications on hold/Waitlist",
+   "status": "Accepting applications",
    "state": "Washington",
    "program": "City of Spokane Emergency Rental Assistance",
    "name": "Spokane",
@@ -2678,7 +2450,7 @@
   },
   {
    "type": "State",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Wisconsin",
    "program": "Wisconsin Emergency Rental Assistance (WERA)",
    "name": "Wisconsin",
@@ -2746,6 +2518,14 @@
   {
    "type": "Territory",
    "status": "Accepting applications",
+   "state": "Northern Mariana Islands",
+   "program": "Commonwealth of the Northern Mariana Islands COVID-19 Emergency Rental Assistance",
+   "name": "Commonwealth of the Northern Mariana Islands",
+   "url": "https://www.cnmidr.gov.mp/covid19/ccera"
+  },
+  {
+   "type": "Territory",
+   "status": "Accepting applications",
    "state": "Guam",
    "program": "Guam Emergency Rental Assistance (ERA) Program",
    "name": "Guam",
@@ -2766,20 +2546,12 @@
    "program": "Virgin Islands Emergency Rental Assistance Program (ERAP)",
    "name": "Virgin Islands",
    "url": "https://erap.vihfa.gov/"
-  },
-  {
-   "type": "Territory",
-   "status": "Accepting applications",
-   "state": "Virgin Islands",
-   "program": "Virgin Islands Emergency Rental Assistance Program (ERAP)",
-   "name": "Virgin Islands",
-   "url": "https://erap.vihfa.gov/"
   }
  ],
  "tribal": [
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Alabama",
    "program": "Mowa Choctaw Emergency Rental Assistance",
    "name": "Mowa Choctaw Housing Authority",
@@ -2787,15 +2559,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
-   "state": "Alaska",
-   "program": "Aleutian Housing Authority Emergency Rental Assistance Programs",
-   "name": "Aleutian Housing Authority",
-   "url": "http://ahaak.org/Emergency-Rental-Assistance.html"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Alaska",
    "program": "Bering Straits Regional Housing Authority Emergency Rental Assistance Program",
    "name": "Bering Straits Regional Housing Authority",
@@ -2803,7 +2567,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Alaska",
    "program": "Copper River Basin Regional Housing Authority Emergency Rental Assistance Program",
    "name": "Copper River Basin Regional Housing Authority",
@@ -2811,7 +2575,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Alaska",
    "program": "Interior Regional Housing Authority Emergency Rental Assistance Program",
    "name": "Interior Regional Housing Authority",
@@ -2819,15 +2583,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
-   "state": "Alaska",
-   "program": "Kenaitze Indian Tribe Treasury Emergency Rental Assistance Program",
-   "name": "Kenaitze Indian Tribe",
-   "url": "https://www.kenaitze.org/services/housing/"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Arizona",
    "program": "Gila River Indian Community Emergency Rental Assistance Program (ERAP)",
    "name": "Gila River Indian Community",
@@ -2835,47 +2591,23 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Arizona",
    "program": "Navajo Housing Authority Emergency Rental Assistance Program",
    "name": "Navajo Nation",
-   "url": "https://www.navajohousingauthority.org/erap/"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
-   "state": "Arizona",
-   "program": "Pascua Yaqui Tirbe Emergency Rental Assistance Program",
-   "name": "Pascua Yaqui Tribe",
-   "url": "https://www.pythousing.com/erap"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
-   "state": "Arizona",
-   "program": "White Mountain Apache Housing Authority COVID-19 Emergency Rental Assistance Program",
-   "name": "White Mountain Apache Housing Authority",
-   "url": "https://www.wmaha.us/public_notice/index.php"
+   "url": "https://navajorenthelp.org/"
   },
   {
    "type": "Tribal Government",
    "status": "Applications on hold/Waitlist",
    "state": "California",
-   "program": "All Mission Indian Housing Authority Emergency Rental Assistance Program",
-   "name": "All Mission Indian Housing Authority",
-   "url": "http://www.amiha.org/"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
-   "state": "California",
    "program": "Bear River Band of the Rohnerville Rancheria Emergency Rental Assistance",
    "name": "Bear River Band of the Rohnerville Rancheria",
-   "url": "http://www.brb-nsn.gov/"
+   "url": "https://www.bearriverrancheria.org/emergency-assistance-forms"
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "California",
    "program": "Enterprise Rancheria Emergency Rental Assistance Program",
    "name": "Enterprise Rancheria Indian Housing Authority",
@@ -2883,15 +2615,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
-   "state": "California",
-   "program": "Hoopa Valley Emergency Rental Assistance (ERA) Program",
-   "name": "Hoopa Valley Housing Authority",
-   "url": "https://www.hoopa-nsn.gov/"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "California",
    "program": "Karuk Tribe Housing Authority COVID-19 Emergency Rental Assistance Program (ERAP)",
    "name": "Karuk Tribe Housing Authority (Tdhe Karuk Tribe)",
@@ -2899,7 +2623,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "California",
    "program": "Kashia Band of Pomo Indians COVID Emergency Rental Assistance Program",
    "name": "Kashia Band Of Pomo Indians",
@@ -2907,7 +2631,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "California",
    "program": "Mesa Grande Band of Mission Indians Emergency Rental Assistance",
    "name": "Mesa Grande Band of Mission Indians",
@@ -2915,7 +2639,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "California",
    "program": "North Fork Rancheria Indian Housing Authority Emergency Shelter Program",
    "name": "North Fork Rancheria Indian Housing Authority (NFRIHA)",
@@ -2923,7 +2647,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "California",
    "program": "Picayune Rancheria of the Chukchansi Indians Rental Assistance Program",
    "name": "Picayune Rancheria of the Chukchansi Indians",
@@ -2931,7 +2655,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "California",
    "program": "Pit River Tribe Emergency Rental and Utilities Assistance",
    "name": "Pit River Tribe",
@@ -2939,7 +2663,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "California",
    "program": "Quartz Valley Indian Reservation Emergency Rental Assistance Program",
    "name": "Quartz Valley Indian Reservation",
@@ -2947,7 +2671,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "California",
    "program": "Quechan Tribally Designated Housing Entity",
    "name": "Quechan Tribally Designated Housing Entity",
@@ -2955,7 +2679,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "California",
    "program": "Resighini Rancheria Emergency Rental Assistance Program",
    "name": "Resighini Rancheria",
@@ -2963,7 +2687,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "California",
    "program": "San Pasqual Band Of Mission Indians Emergency Rental Assistance Program (ERAP)",
    "name": "San Pasqual Band Of Mission Indians",
@@ -2971,7 +2695,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Colorado",
    "program": "Southern Ute Emergency Rental Assistance Program",
    "name": "Southern Ute Indian Tribe",
@@ -2979,7 +2703,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Idaho",
    "program": "Nez Perce Tribal Housing Authority",
    "name": "Nez Perce Tribal Housing Authority",
@@ -2987,7 +2711,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Maine",
    "program": "Maliseet Indian Housing Authority COVID-19 Emergency Rental Assistance Program",
    "name": "Houlton Band of Maliseet Indian Housing Authority",
@@ -2995,7 +2719,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Maine",
    "program": "Indian Township Tribal Government Emergency Rental Assistance",
    "name": "Indian Township",
@@ -3003,7 +2727,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Michigan",
    "program": "Bay Mills Indian Community Housing Authority Rental Assistance Program",
    "name": "Bay Mills Indian Community Housing Authority",
@@ -3019,7 +2743,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Michigan",
    "program": "Keweenaw Bay Indian Community COVID-19 Emergency Rental Assistance Program ",
    "name": "Keweenaw Bay Indian Community",
@@ -3027,27 +2751,11 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Michigan",
    "program": "Little Traverse Bay Band of Odowa Indians Covid-19 Emergency Rental Assistance Programs",
    "name": "Little Traverse Bay Band of Odawa Indians",
    "url": "https://ltbbodawa-nsn.gov/departments/housing-department/"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
-   "state": "Michigan",
-   "program": "Saginaw Chippewa Indian Tribe Of Michigan Covid-19 Rental Assistance Program",
-   "name": "Saginaw Chippewa Indian Tribe Of Michigan",
-   "url": "http://www.sagchip.org/news.aspx?newsid=3584"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Applications on hold/Waitlist",
-   "state": "Michigan",
-   "program": "Sault Tribe Housing Authority Emergency Rental Assistance Program",
-   "name": "Sault Ste. Marie Tribe of Chippewa Indians",
-   "url": "https://www.saulttribe.com/newsroom/207-housing-news/7234-housing-offers-emergency-rental-assistance"
   },
   {
    "type": "Tribal Government",
@@ -3059,15 +2767,15 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Minnesota",
    "program": "Fond du Lac Reservation COVID Emergency Rental Assistance",
    "name": "Fond du Lac Band of Lake Superior Chippewa",
-   "url": "http://www.fdlrez.com/%5C/housing/index.htm"
+   "url": "http://www.fdlrez.com/%5C/housing/programs.htm"
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Minnesota",
    "program": "Grand Portage Band of Lake Superior Chippewa COVID-19 Emergency Rental Assistance Program",
    "name": "Grand Portage Band of Lake Superior Chippewa",
@@ -3075,7 +2783,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Minnesota",
    "program": "White Earth Covid Emergency Rental Assistance",
    "name": "White Earth Band of Chippewa Indians",
@@ -3083,7 +2791,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Mississippi",
    "program": "Mississippi Band of Choctaw Indians Emergency Rental Assistance Program",
    "name": "Mississippi Choctaw Tribe",
@@ -3091,7 +2799,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Montana",
    "program": "Apsaalooke Nation Housing Authority Emergency Rental Assistance Program",
    "name": "Apsaalooke Nation Housing Authority",
@@ -3099,7 +2807,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Montana",
    "program": "Blackfeet Housing Emergency Rental Assistance Program",
    "name": "Blackfeet Housing",
@@ -3107,7 +2815,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Montana",
    "program": "Chippewa-Cree Housing Authority Emergency Rental Assistance Program",
    "name": "Chippewa-Cree Housing Authority",
@@ -3115,19 +2823,11 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Montana",
    "program": "Fort Belknap Tribal Housing Authority Emergency Rental Assistance Program",
    "name": "Fort Belknap Indian Community",
    "url": "https://fbtha.org/applications/"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
-   "state": "Montana",
-   "program": "Little Shell Tribal Housing Department Emergency Rental Assistance Program",
-   "name": "Little Shell Tribe",
-   "url": "https://www.montanalittleshelltribe.org/housing-program/"
   },
   {
    "type": "Tribal Government",
@@ -3139,7 +2839,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Nevada",
    "program": "Fallon Paiute-Shoshone Tribe Emergency Rental/Utility Assistance Program",
    "name": "Fallon Paiute-Shoshone Tribe",
@@ -3147,7 +2847,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Nevada",
    "program": "Pyramid Lake Housing Authority",
    "name": "Pyramid Lake Housing Authority",
@@ -3155,7 +2855,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Nevada",
    "program": "RSIC COVID-19 Emergency Rental Assistance (ERA) and Utility Assistance Program",
    "name": "Reno-Sparks Indian Colony",
@@ -3163,7 +2863,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Nevada",
    "program": "Summit Lake Paiute Emergency Rental Assistance (ERA)",
    "name": "Summit Lake Paiute Tribe",
@@ -3171,15 +2871,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
-   "state": "Nevada",
-   "program": "Washoe Housing Authority Emergency Rental Assistance Program",
-   "name": "Washoe Housing Authority",
-   "url": "http://washoehousingauthority.com/"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "New Mexico",
    "program": "Isleta Pueblo Housing Authority Emergency Rental/Utilities Assistance",
    "name": "Isleta Pueblo Housing Authority",
@@ -3187,7 +2879,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "New Mexico",
    "program": "Mescalero Apache Tribe Emergency Rental Assistance Program",
    "name": "Mescalero Apache Tribe",
@@ -3195,31 +2887,15 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "New Mexico",
-   "program": "Ohkay Owingeh Housing Authority Emergency Rental Assistance Program",
-   "name": "Ohkay Owingeh Housing Authority",
-   "url": "https://ohkayowingehhousingauthority.com/for-renters-impacted-by-covid-19/"
+   "program": "Santo Domingo Emergency Rental Assistance",
+   "name": "Santo Domingo Tribe",
+   "url": "https://sdtha.org/rental-info/"
   },
   {
    "type": "Tribal Government",
    "status": "Applications on hold/Waitlist",
-   "state": "New Mexico",
-   "program": "Santa Clara Pueblo Emergency Rental Assistance (ERA) Program",
-   "name": "Santa Clara Pueblo",
-   "url": "https://www.scphousing.org/era-program.html"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
-   "state": "New Mexico",
-   "program": "Santo Domingo Emergency Rental Assistance",
-   "name": "Santo Domingo Tribe",
-   "url": "http://www.sdtha.org/#intro-1"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
    "state": "New York",
    "program": "Seneca Nation Emergency Rental Assistance Program",
    "name": "Seneca Nation",
@@ -3227,7 +2903,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "North Carolina",
    "program": "Eastern Band of Cherokee Indians Emergency Rental Assistance Program",
    "name": "Eastern Band of Cherokee Indians",
@@ -3235,7 +2911,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "North Carolina",
    "program": "Haliwa-Siponi Emergency Rental Assistance Program",
    "name": "Haliwa-Siponi Indian Tribe",
@@ -3243,7 +2919,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "North Carolina",
    "program": "Lumbee Tribe Rental Pandemic Relief Program (RPRP)",
    "name": "Lumbee Tribe of North Carolina",
@@ -3251,7 +2927,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "North Carolina",
    "program": "Waccamaw Siouan Tribe Emergency Rental Assistance Program",
    "name": "Waccamaw Siouan Tribe",
@@ -3259,7 +2935,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "North Dakota",
    "program": "Fort Berthold Housing Authority Emergency Rental Assistance",
    "name": "Fort Berthold Housing Authority",
@@ -3267,15 +2943,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
-   "state": "North Dakota",
-   "program": "Standing Rock Sious Tribe (SRST) Emergency Rental Assistance Program",
-   "name": "Standing Rock Sioux Tribe (SRST)",
-   "url": "https://standingrockhousing.org/"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "North Dakota",
    "program": "Turtle Mountain Housing Authority Emergency Rental Assistance Program",
    "name": "Turtle Mountain Housing Authority",
@@ -3283,7 +2951,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Oklahoma",
    "program": "Alabama Quassarte Tribal Emergency Rental Assistance",
    "name": "Alabama Quassarte Tribal Town",
@@ -3291,27 +2959,11 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
-   "state": "Oklahoma",
-   "program": "Apache Tribe of Oklahoma Emergency Rental Assistance Program (ERAP)",
-   "name": "Apache Tribe of Oklahoma",
-   "url": "https://apachetribe.org/emergency-rental-assistance-program-erap/"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Oklahoma",
    "program": "Caddo Nation Emergency Rental Assistance",
    "name": "Caddo Nation",
    "url": "https://mycaddonation.com/housing"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
-   "state": "Oklahoma",
-   "program": "Cherokee Nation Emergency Rental Assistance Program (ERAP)",
-   "name": "Cherokee Nation",
-   "url": "https://www.hacn.org/hacn"
   },
   {
    "type": "Tribal Government",
@@ -3325,21 +2977,13 @@
    "type": "Tribal Government",
    "status": "Applications on hold/Waitlist",
    "state": "Oklahoma",
-   "program": "Chickasaw Nation COVID-19 Emergency Rental Assistance Program",
-   "name": "Chickasaw Nation",
-   "url": "https://chickasaw.net/Our-Nation/Community/COVID-19/COVID-19-Emergency-Rental-Assistance-Program.aspx"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Applications on hold/Waitlist",
-   "state": "Oklahoma",
    "program": "Choctaw COVID-19 Emergency Rental Assistance Program",
    "name": "Choctaw Nation",
    "url": "https://www.choctawnation.com/covidrelief"
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Oklahoma",
    "program": "Citizen Potawatomi Nation Low-Income Rental and Utility Assistance Program",
    "name": "Citizen Potawatomi Nation",
@@ -3355,7 +2999,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Oklahoma",
    "program": "Delaware Nation Department of Treasury Emergency Rental Assistance Program",
    "name": "Delaware Nation",
@@ -3363,7 +3007,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Oklahoma",
    "program": "Delaware Tribe of Indians Emergency Rental Assistance (ERAP) Program",
    "name": "Delaware Tribe of Indians",
@@ -3371,7 +3015,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Oklahoma",
    "program": "Eastern Shawnee Tribe Emergency Rental Assistance Program",
    "name": "Eastern Shawnee Tribe of Oklahoma",
@@ -3379,7 +3023,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Oklahoma",
    "program": "Kaw Housing Authority COVID-19 Emergency Rental Assistance Program",
    "name": "Housing Authority of The Kaw Tribe",
@@ -3387,7 +3031,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Oklahoma",
    "program": "Iowa Tribe of Oklahoma Emergency Rental Assistance and Utility Assistance",
    "name": "Iowa Tribe of Oklahoma (Baxoje (Bah Kho-je) Tribe)",
@@ -3403,7 +3047,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Oklahoma",
    "program": "Kiowa Tribe Emergency Rental Assistance Program",
    "name": "Kiowa Tribe",
@@ -3427,23 +3071,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
-   "state": "Oklahoma",
-   "program": "Peoria Tribe of Indians of Oklahoma Emergency Rental Assistance",
-   "name": "Peoria Tribe of Indians of Oklahoma",
-   "url": "https://peoriatribe.com/forms/"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
-   "state": "Oklahoma",
-   "program": "Quapaw Nation COVID-19 Emergency Rental Assistance",
-   "name": "Quapaw Nation",
-   "url": "https://www.quapawtribe.com/671/Covid19-Emergency-Rental-Assistance"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Oklahoma",
    "program": "Sac and Fox Nation Emergency Rental Assistance Program",
    "name": "Sac and Fox Nation",
@@ -3451,7 +3079,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Oklahoma",
    "program": "Seneca Cayuga Nation Emergency Rental Assistance Program (ERAP)",
    "name": "Seneca Cayuga Nation",
@@ -3467,7 +3095,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Oklahoma",
    "program": "Wyandotte Nation Emergency Rental Assistance",
    "name": "Wyandotte Nation",
@@ -3491,7 +3119,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Oregon",
    "program": "Coquille Indian Tribe Emergency Rental Assistance (ERA) Program",
    "name": "Coquille Indian Tribe",
@@ -3499,7 +3127,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Rhode Island",
    "program": "Narragansett Indian Tribe Housing Covid-19 Emergency Rental Assistance Program",
    "name": "Narragansett Indian Tribe",
@@ -3507,15 +3135,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
-   "state": "South Dakota",
-   "program": "Cheyenne River Sioux Indian Reservation Emergency Rental Assistance (ERA) Program",
-   "name": "Cheyenne River Sioux Indian Reservation",
-   "url": "http://crhanetwork.org/erap.html"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "South Dakota",
    "program": "Flandreau Santee Sioux Tribe Emergency Rental Assistance Program (ERAP) ",
    "name": "Flandreau Santee Sioux Tribe",
@@ -3531,15 +3151,15 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "South Dakota",
    "program": "Oglala Sioux Tribe Emergency Rental & Utility Assistance Program",
    "name": "Oglala Sioux (Lakota) Tribe",
-   "url": "http://oslh.org/emergency-assistance/"
+   "url": "https://oslh.org/erap/"
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "South Dakota",
    "program": "Sicangu Wicoti Awayankape Corporation Emergency Rental Assistance Program (ERAP)",
    "name": "Sicangu Wicoti Awayankape Corporation",
@@ -3547,7 +3167,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Utah",
    "program": "Goshute Housing Authority Emergency Rental Assistance Program",
    "name": "Goshute Housing Authority",
@@ -3555,23 +3175,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
-   "state": "Utah",
-   "program": "Ute Indian Housing Authority Emergency Rental Assistance Program",
-   "name": "Ute Indian Tribally Designated Housing Entity",
-   "url": "https://www.facebook.com/UteIndianHousingAuthority/"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
-   "state": "Virginia",
-   "program": "Monacan Nation Emergency Rental Assistance",
-   "name": "Monacan Indian Nation",
-   "url": "https://www.monacannation.com/housing.html"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Washington",
    "program": "Chehalis Tribal Housing Authority COVID-19 Emergency Assistance Program",
    "name": "Chehalis Tribal Housing Authority",
@@ -3579,7 +3183,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Washington",
    "program": "Colville Tribe Emergency Rental Assistance Program",
    "name": "Colville Tribe",
@@ -3587,7 +3191,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Washington",
    "program": "Lummi Emergency Rental Assistance Program",
    "name": "Lummi Nation",
@@ -3595,7 +3199,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Washington",
    "program": "Port Gamble S'Klallam Tribe COVID-19 Emergency Rental Assistance Program",
    "name": "Port Gamble S'Klallam Tribe",
@@ -3603,7 +3207,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Washington",
    "program": "Spokane Tribe of Indians Temporary Emergency Rental & Utility Assistance Program",
    "name": "Spokane Tribe of Indians",
@@ -3611,7 +3215,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Washington",
    "program": "Tulalip Tribes Emergency Rental Assistance Program (TERAP)",
    "name": "Tulalip Tribes of Washington",
@@ -3619,7 +3223,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Wisconsin",
    "program": "Bad River Emergency Rental Assistance",
    "name": "Bad River Nation",
@@ -3627,7 +3231,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Wisconsin",
    "program": "Ho-Chunk Nation Emergency Rental Assistance",
    "name": "Ho-Chunk Nation",
@@ -3635,7 +3239,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Wisconsin",
    "program": "Menominee Indian Tribe COVID-19 Emergency Rental Assistance",
    "name": "Menominee Indian Tribe of Wisconsin",
@@ -3643,7 +3247,7 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Wisconsin",
    "program": "Oneida Emergency Rental/Utility Assistance Program",
    "name": "Oneida Nation",
@@ -3651,27 +3255,11 @@
   },
   {
    "type": "Tribal Government",
-   "status": "Accepting applications",
-   "state": "Wisconsin",
-   "program": "Red Cliff Emergency Rental Assistance Program",
-   "name": "Red Cliff Band Of Lake Superior Chippewa",
-   "url": "https://www.redcliff-nsn.gov/erap/"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Wyoming",
    "program": "Eastern Shoshone Housing Authority Emergency Rental Assistance Program",
    "name": "Eastern Shoshone Housing Authority",
    "url": "https://www.facebook.com/pg/ESHA82514/posts/?ref=page_internal"
-  },
-  {
-   "type": "Tribal Government",
-   "status": "Accepting applications",
-   "state": "Wyoming",
-   "program": "Wind River Emergency Rental Assistance Program",
-   "name": "Northern Arapaho Tribal Housing",
-   "url": "http://wrera.com/"
   }
  ]
 }

@@ -58,6 +58,13 @@ const getProgramName = ( type, item ) => {
   }
 }
 
+const checkStatus = ( status ) => {
+  // This string represents all the statuses we recognize.
+  const statuses = 'Accepting applications - rolling basis,Applications on hold/Waitlist';
+
+  return statuses.indexOf( status ) > -1;
+};
+
 const processPrograms = ( programs ) => {
   let results = {
     geographic:[],
@@ -66,6 +73,7 @@ const processPrograms = ( programs ) => {
   let noContact = [];
   let noURL = [];
   let noCounty = [];
+  let badStatus = [];
   let foo = 0;
   programs.forEach( item => {
     if ( item['Program Status'].indexOf( 'Program permanently closed' ) === -1 ) {
@@ -74,7 +82,11 @@ const processPrograms = ( programs ) => {
       // Copy Geographic Level as Type
       let type = item['Geographic Level'];
       itemCopy['type'] = type;
-      itemCopy['status'] = item['Program Status'];
+      if ( checkStatus( item['Program Status'] ) ) {
+        itemCopy['status'] = item['Program Status'];
+      } else {
+        badStatus.push( `Bad status: ${item['Program Name']}` );
+      }
       // Copy State as State
       itemCopy['state'] = item['State'];
       // Set State to territory name if territory
@@ -101,7 +113,7 @@ const processPrograms = ( programs ) => {
           itemCopy['county'] = county;
         }
         if (type === 'City' && !county) {
-          noCounty.push( `${item['City/County/ Locality']}, ${item['State']}`)
+          noCounty.push( `No county: ${item['City/County/ Locality']}, ${item['State']}`)
         }
       }
       // check to see whether contact info is URL or phone
@@ -112,10 +124,10 @@ const processPrograms = ( programs ) => {
       if (contact) {
         itemCopy[contact[0]] = contact[1];
         if ( contact[0] === 'phone' ) {
-          noURL.push( [item['Program Name'], contact[1]] )
+          noURL.push( 'No/bad URL: ', [item['Program Name'], contact[1]] )
         }
       } else {
-        noContact.push(item['Program Name']);
+        noContact.push(`No contact: ${item['Program Name']}`);
       }
 
       if ( itemCopy.type === 'Tribal Government' ) {
@@ -134,7 +146,8 @@ const processPrograms = ( programs ) => {
     programs: results,
     noContact: noContact,
     noCounty: noCounty,
-    noURL: noURL
+    noURL: noURL,
+    badStatus: badStatus
   }
 }
 
@@ -152,13 +165,32 @@ if ( process.argv[2] == null ) {
     }
 
     // process the data
-    let json = initializeData( data );
-    let results = processPrograms( json );
+    const json = initializeData( data );
+    const results = processPrograms( json );
+    const errArrays = [ results.noCounty, results.noContact, results.noURL, results.badStatus ];
+    let errors = '';
+
+    errArrays.forEach( arr => {
+      if ( arr.length > 0 ) {
+        arr.forEach( errorTxt => {
+          errors += errorTxt + '\n';
+        });
+      }
+    });
+
+    console.log( errors );
 
     fs.writeFile( 'output/erap.json', JSON.stringify( results.programs, null, ' ' ), (err) => {
       if (err) throw err;
       console.log('The file has been saved!');
     })
+
+    if ( errors.length > 0 ) {
+      fs.writeFile( 'output/errors.txt', errors, (err) => {
+        if (err) throw err;
+        console.log('Error file has been saved!')
+      });
+    }
 
   } );
 
