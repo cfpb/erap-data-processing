@@ -85,7 +85,7 @@ const processPrograms = ( programs ) => {
       if ( checkStatus( item['Program Status'] ) ) {
         itemCopy['status'] = item['Program Status'];
       } else {
-        badStatus.push( `Bad status: ${item['Program Name']}` );
+        badStatus.push( `**Bad status**: ${item['Program Name']}` );
       }
       // Copy State as State
       itemCopy['state'] = item['State'];
@@ -113,7 +113,7 @@ const processPrograms = ( programs ) => {
           itemCopy['county'] = county;
         }
         if (type === 'City' && !county) {
-          noCounty.push( `No county: ${item['City/County/ Locality']}, ${item['State']}`)
+          noCounty.push( `**No county**: ${item['City/County/ Locality']}, ${item['State']}`)
         }
       }
       // check to see whether contact info is URL or phone
@@ -124,10 +124,10 @@ const processPrograms = ( programs ) => {
       if (contact) {
         itemCopy[contact[0]] = contact[1];
         if ( contact[0] === 'phone' ) {
-          noURL.push( `Bad or no URL: ${item['Program Name']} (${contact[1]})` );
+          noURL.push( `**Bad or no URL**: ${item['Program Name']} (${contact[1]})` );
         }
       } else {
-        noContact.push(`No contact: ${item['Program Name']}`);
+        noContact.push(`**No contact**: ${item['Program Name']}`);
       }
 
       if ( itemCopy.type === 'Tribal Government' ) {
@@ -173,12 +173,11 @@ if ( process.argv[2] == null ) {
     errArrays.forEach( arr => {
       if ( arr.length > 0 ) {
         arr.forEach( errorTxt => {
-          errors += errorTxt + '\n';
+          errors += '\n- ' + errorTxt;
         });
       }
     });
 
-    console.log( errors );
 
     fs.writeFile( 'output/erap.json', JSON.stringify( results.programs, null, ' ' ), (err) => {
       if (err) throw err;
@@ -186,6 +185,10 @@ if ( process.argv[2] == null ) {
     })
 
     if ( errors.length > 0 ) {
+      // If there are errors, add some text.
+      errors = "The following errors occurred:\n" + errors; 
+
+
       fs.writeFile( 'output/errors.txt', errors, (err) => {
         if (err) throw err;
         console.log('Error file has been saved!')
