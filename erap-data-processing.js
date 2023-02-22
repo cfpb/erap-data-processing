@@ -124,7 +124,7 @@ const processPrograms = ( programs ) => {
       if (contact) {
         itemCopy[contact[0]] = contact[1];
         if ( contact[0] === 'phone' ) {
-          noURL.push( 'No/bad URL: ', [item['Program Name'], contact[1]] )
+          noURL.push( `Bad or no URL: ${[item['Program Name']} (${contact[1]]}` );
         }
       } else {
         noContact.push(`No contact: ${item['Program Name']}`);
