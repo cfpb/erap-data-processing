@@ -74,7 +74,6 @@ const processPrograms = ( programs ) => {
   let noURL = [];
   let noCounty = [];
   let badStatus = [];
-  let foo = 0;
   programs.forEach( item => {
     if ( item['Program Status'].indexOf( 'Program permanently closed' ) === -1 ) {
       let itemCopy = {};
@@ -167,13 +166,23 @@ if ( process.argv[2] == null ) {
     // process the data
     const json = initializeData( data );
     const results = processPrograms( json );
-    const errArrays = [ results.noCounty, results.noContact, results.noURL, results.badStatus ];
+    const warnArrays = [  results.noContact, results.noURL ]; 
+    const errArrays = [ results.noCounty, results.badStatus ];
     let errors = '';
+    let warnings = '';
 
     errArrays.forEach( arr => {
       if ( arr.length > 0 ) {
         arr.forEach( errorTxt => {
           errors += '\n- ' + errorTxt;
+        });
+      }
+    });
+
+    warnArrays.forEach( arr => {
+      if ( arr.length > 0 ) {
+        arr.forEach( warnTxt => {
+          warnings += '\n- ' + warnTxt;
         });
       }
     });
@@ -186,13 +195,24 @@ if ( process.argv[2] == null ) {
 
     if ( errors.length > 0 ) {
       // If there are errors, add some text.
-      errors = "The following errors occurred:\n" + errors; 
+      errors = "The following errors occurred:\n" + errors;
 
 
       fs.writeFile( 'output/errors.txt', errors, (err) => {
         if (err) throw err;
-        console.log('Error file has been saved!')
+        console.log('Error file has been saved!');
       });
+
+    if ( warnings.length > 0 ) {
+      // If there are warnings, add some text.
+      warnings = "The following warnings occurred:\n" + warnings;
+
+      fs.writeFile( 'output/warnings.txt', warnings, (err) => {
+        if (err) throw err;
+        console.log('Warning file has been saved!');
+      });
+    }
+
     }
 
   } );
