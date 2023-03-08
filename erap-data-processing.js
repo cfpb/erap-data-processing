@@ -187,10 +187,9 @@ if ( process.argv[2] == null ) {
       }
     });
 
-
     fs.writeFile( 'output/erap.json', JSON.stringify( results.programs, null, ' ' ), (err) => {
       if (err) throw err;
-      console.log('The file has been saved!');
+      console.log('The JSON file has been saved!');
     })
 
     if ( errors.length > 0 ) {
@@ -202,16 +201,17 @@ if ( process.argv[2] == null ) {
         if (err) throw err;
         console.log('Error file has been saved!');
       });
+    }
 
     if ( warnings.length > 0 ) {
-      // If there are warnings, add some text.
-      warnings = "The following warnings occurred:\n" + warnings;
+    // If there are warnings, add some text.
+    warnings = "The following warnings occurred:\n" + warnings;
 
-      fs.writeFile( 'output/warnings.txt', warnings, (err) => {
-        if (err) throw err;
-        console.log('Warning file has been saved!');
-      });
-    }
+
+    fs.writeFile( 'output/warnings.txt', warnings, (err) => {
+    if (err) throw err;
+      console.log('Warning file has been saved!');
+    });
 
     }
 

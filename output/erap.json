@@ -123,17 +123,6 @@
   },
   {
    "type": "City",
-   "status": "Applications on hold/Waitlist",
-   "state": "Arizona",
-   "program": "Mesa Emergency Rental and Utility Assistance Program",
-   "name": "Mesa",
-   "county": [
-    "Maricopa County"
-   ],
-   "url": "https://www.mesaaz.gov/residents/my-utility-account/emergency-rental-utility-assistance-program"
-  },
-  {
-   "type": "City",
    "status": "Accepting applications",
    "state": "Arizona",
    "program": "Phoenix City Emergency Rental Assistance (ERA) Program",
@@ -378,7 +367,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Colorado",
    "program": "Arapahoe County Rent, Mortgage and Utility Assistance",
    "name": "Arapahoe County",
@@ -401,11 +390,11 @@
    "state": "Colorado",
    "program": "Douglas County Emergency Rental Assistance",
    "name": "Douglas County",
-   "url": "https://www.douglas.co.us/rent-assistance/"
+   "url": "https://www.douglas.co.us/community-services/services/self-sufficiency/pathways-to-employment/"
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Colorado",
    "program": "Jefferson County Emergency Assistance COVID-19",
    "name": "Jefferson County",
@@ -445,7 +434,7 @@
   },
   {
    "type": "County",
-   "status": "Applications on hold/Waitlist",
+   "status": "Accepting applications",
    "state": "Florida",
    "program": "Alachua County Emergency Rental Assistance Program (ERAP)",
    "name": "Alachua County",
@@ -517,14 +506,6 @@
    "type": "County",
    "status": "Applications on hold/Waitlist",
    "state": "Florida",
-   "program": "Leon County Emergency Rental Assistance Program",
-   "name": "Leon County",
-   "url": "https://cms.leoncountyfl.gov/cares/"
-  },
-  {
-   "type": "County",
-   "status": "Applications on hold/Waitlist",
-   "state": "Florida",
    "program": "Manatee County Emergency Rental Assistance Program",
    "name": "Manatee County",
    "url": "https://www.mymanatee.org/departments/redevelopment___economic_opportunity/community_development/manatee_cares/emergency_rental_assistance_program"
@@ -585,7 +566,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Accepting applications - rolling basis",
    "state": "Florida",
    "program": "Palm Beach County Rental Assistance",
    "name": "Palm Beach County",
@@ -671,7 +652,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Georgia",
    "program": "Chatham County Rental and Utility Assistance Program",
    "name": "Chatham County",
@@ -848,7 +829,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Illinois",
    "program": "Madison County Emergency Rental Assistance",
    "name": "Madison County",
@@ -958,7 +939,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Kentucky",
    "program": "Housing Stabilization Partnership Program",
    "name": "Lexington-Fayette Urban County Government",
@@ -1318,22 +1299,11 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Nevada",
    "program": "Clark County CARES Housing Assistance Program (CHAP)",
    "name": "Clark County",
    "url": "https://chap.clarkcountynv.gov/"
-  },
-  {
-   "type": "City",
-   "status": "Accepting applications",
-   "state": "Nevada",
-   "program": "Rental Assistance For Tenants (RAFT)",
-   "name": "Las Vegas",
-   "county": [
-    "Clark County"
-   ],
-   "url": "https://www.lasvegasnevada.gov/Residents/Housing-Assistance-Program"
   },
   {
    "type": "County",
@@ -1778,14 +1748,6 @@
    "url": "https://www.co.warren.oh.us/CovidUpdates/ERA/Default.aspx"
   },
   {
-   "type": "State",
-   "status": "Applications on hold/Waitlist",
-   "state": "Oklahoma",
-   "program": "Oklahoma Emergency Rental Assistance Program",
-   "name": "Oklahoma",
-   "url": "https://okcommunitycares.org"
-  },
-  {
    "type": "City",
    "status": "Applications on hold/Waitlist",
    "state": "Oklahoma",
@@ -1809,7 +1771,7 @@
   },
   {
    "type": "County",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Oregon",
    "program": "Clackamas County Emergency Rental Assistance",
    "name": "Clackamas County",
@@ -1830,6 +1792,14 @@
    "program": "COVID Assistance Program",
    "name": "Marion County",
    "url": "https://www.co.marion.or.us/BOC/CD/Pages/rentalassistance.aspx"
+  },
+  {
+   "type": "County",
+   "status": "Applications on hold/Waitlist",
+   "state": "Oregon",
+   "program": "Multnomah County COVID-19 Rent Relief Program",
+   "name": "Multnomah County",
+   "url": "https://www.portland.gov/phb/rent-relief/multnomah-county-rent-assistance"
   },
   {
    "type": "County",
@@ -1936,14 +1906,6 @@
    "url": "https://yourwayhome.org/eruc"
   },
   {
-   "type": "County",
-   "status": "Accepting applications",
-   "state": "Pennsylvania",
-   "program": "Northampton County Community Mediation and Eviction Diversion Program",
-   "name": "Northampton County",
-   "url": "https://www.northamptoncounty.org/CMTYECDV/Pages/Housing-and-Community-Resources.aspx"
-  },
-  {
    "type": "City",
    "status": "Applications on hold/Waitlist",
    "state": "Pennsylvania",
@@ -2032,7 +1994,7 @@
    "state": "South Dakota",
    "program": "South Dakota CARES Housing Assistance Program",
    "name": "South Dakota",
-   "url": "https://www.sdhda.org/social-programs/cares-act-housing-assistance-program/cares-act-housing-assistance-program-2"
+   "url": "https://www.sdhousing.org/ready-to-buy/save-my-home/sdcares"
   },
   {
    "type": "State",
@@ -2343,7 +2305,7 @@
   },
   {
    "type": "County",
-   "status": "Applications on hold/Waitlist",
+   "status": "Accepting applications - rolling basis",
    "state": "Washington",
    "program": "Clark County Treasury Rent Assistance",
    "name": "Clark County",
@@ -2399,7 +2361,7 @@
   },
   {
    "type": "City",
-   "status": "Accepting applications",
+   "status": "Applications on hold/Waitlist",
    "state": "Washington",
    "program": "City of Spokane Emergency Rental Assistance",
    "name": "Spokane",
