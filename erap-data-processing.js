@@ -157,6 +157,31 @@ const processPrograms = ( programs ) => {
 if ( process.argv[2] == null ) {
   console.log( 'No argument was provided! This script requires a TSV file as its sole argument.' );
 } else {
+
+  // Remove existing files, if found
+  const outputs = [
+    'output/erap.json',
+    'output/errors.txt',
+    'output/warnings.txt'
+  ];
+
+  outputs.forEach( filename => {
+    fs.access( filename, err => {
+      if (err) {
+        console.log( filename + ' not found' );
+      } else {
+        fs.rm( filename, err => {
+          if ( err ) {
+            throw err;
+          } else {
+            console.log( filename + ' removed' );
+          }
+        } );
+      }
+    });
+  });
+
+
   fs.readFile( process.argv[2], 'utf8' , ( err, data ) => {
     if (err) {
       console.error( err );
@@ -171,7 +196,7 @@ if ( process.argv[2] == null ) {
     let errors = '';
     let warnings = '';
 
-    errArrays.forEach( arr => {
+    errArrays.forEach( ( arr ) => {
       if ( arr.length > 0 ) {
         arr.forEach( errorTxt => {
           errors += '\n- ' + errorTxt;
@@ -179,7 +204,7 @@ if ( process.argv[2] == null ) {
       }
     });
 
-    warnArrays.forEach( arr => {
+    warnArrays.forEach( ( arr ) => {
       if ( arr.length > 0 ) {
         arr.forEach( warnTxt => {
           warnings += '\n- ' + warnTxt;
